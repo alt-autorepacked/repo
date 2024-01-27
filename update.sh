@@ -6,6 +6,7 @@ epm tool eget https://raw.githubusercontent.com/alt-autorepacked/common/v0.1.0/c
 packages=(
     "vk-messenger"
     "discord"
+    "code"
 )
 
 if [ -n "$ALT_BRANCH_ID" ]; then
