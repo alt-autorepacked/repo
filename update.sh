@@ -7,6 +7,7 @@ packages=(
     "vk-messenger"
     "discord"
     "code"
+    "yandex-music"
 )
 
 if [ -n "$ALT_BRANCH_ID" ]; then
