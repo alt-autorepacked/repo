@@ -9,6 +9,7 @@ packages=(
     "code"
     "yandex-music"
     "google-chrome-stable"
+    "Telegram"
 )
 
 if [ -n "$ALT_BRANCH_ID" ]; then
