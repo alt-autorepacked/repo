@@ -8,7 +8,7 @@ packages=(
     "discord"
     "code"
     "yandex-music"
-    "chrome"
+    "google-chrome-stable"
 )
 
 if [ -n "$ALT_BRANCH_ID" ]; then
