@@ -7,7 +7,7 @@ packages=(
     "vk-messenger"
     "discord"
     "code"
-    "yandex-music"
+    "yandexmusic"
     "google-chrome-stable"
     "Telegram"
 )
