@@ -42,4 +42,4 @@ jobs:
             apt-get update && apt-get -y install eepm git github-cli
             epm update
             git config --global --add safe.directory '*'
-            ./update.sh
+            ./update.sh || true
