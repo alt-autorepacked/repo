@@ -1,6 +1,8 @@
 #!/bin/bash
 
-epm tool eget https://raw.githubusercontent.com/alt-autorepacked/common/v0.1.0/common.sh
+COMMON_VERSION="0.4.0"
+
+epm tool eget https://raw.githubusercontent.com/alt-autorepacked/common/v$COMMON_VERSION/common.sh
 . ./common.sh
 
 packages=(
@@ -12,6 +14,17 @@ packages=(
     "Telegram"
     "draw.io"
 )
+
+# Define an array of the required programs
+required_programs=("gh" "epm")
+
+for program in "${required_programs[@]}"; do
+    if ! command -v "$program" >/dev/null; then
+        echo "$program not found, please install it"
+        return 1
+    fi
+done
+
 
 if [ -n "$ALT_BRANCH_ID" ]; then
     reponame="$ALT_BRANCH_ID"
