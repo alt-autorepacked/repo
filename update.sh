@@ -13,6 +13,7 @@ packages=(
     "google-chrome-stable"
     "Telegram"
     "draw.io"
+    "Trezor-Suite"
 )
 
 # Define an array of the required programs
