@@ -14,6 +14,7 @@ packages=(
     "Telegram"
     "draw.io"
     "Trezor-Suite"
+    "singularityapp"
 )
 
 # Define an array of the required programs
