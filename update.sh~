@@ -7,7 +7,6 @@ epm tool eget https://raw.githubusercontent.com/alt-autorepacked/common/v$COMMON
 
 packages=(
     "electron28"
-    "electron29"
 
     "vk-messenger"
     "discord"
