@@ -33,7 +33,7 @@ jobs:
       - name: Run the update process with Docker
         uses: addnab/docker-run-action@v3
         with:
-          image: "alt:${{ matrix.branch }}"
+          image: "registry.altlinux.org/alt/alt:${{ matrix.branch }}"
           options: |
             --platform linux/${{ matrix.arch }}
             --volume ${{ github.workspace }}/:/workspace
