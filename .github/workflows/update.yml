@@ -17,6 +17,7 @@ jobs:
         branch:
           - sisyphus
           - p10
+          - p11
         arch:
           - amd64
           - arm64
